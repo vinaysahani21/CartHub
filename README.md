@@ -47,8 +47,7 @@ Follow these steps to run the project locally on XAMPP/WAMP/MAMP or an Ubuntu LA
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/vinaysahani21/CartHub.git](https://github.com/vinaysahani21/CartHub.git)
-cd carthub
+git clone [https://github.com/vinaysahani21/CartHub.git]
 
 ```
 
