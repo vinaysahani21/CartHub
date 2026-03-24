@@ -117,7 +117,7 @@ $amount_in_paisa = round($total_with_tax * 100);
 
 <script>
 var options = {
-    "key": "rzp_test_SPRbM48uGd6FEp", // ENTER YOUR KEY ID HERE
+    "key": "Your_Razorpay_Key", // ENTER YOUR KEY ID HERE
     "amount": "<?php echo $amount_in_paisa; ?>", 
     "currency": "INR",
     "name": "CartHub Store",
