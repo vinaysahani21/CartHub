@@ -50,10 +50,12 @@ Follow these steps to run the project locally on XAMPP/WAMP/MAMP or an Ubuntu LA
 git clone [https://github.com/vinaysahani21/CartHub.git](https://github.com/vinaysahani21/CartHub.git)
 cd carthub
 
-3. Database Configuration
+```
+
+## 3. Database Configuration
 Open phpMyAdmin (http://localhost/phpmyadmin).
 
-Create a new database named carthub.
+## Create a new database named carthub.
 
 Import the provided SQL file (e.g., database.sql if exported) into this database.
 
@@ -66,7 +68,7 @@ $pass = "";     // your db password
 $dbname = "carthub";
 
 
-4. API Key Configuration
+## 4. API Key Configuration
 Razorpay (Payments):
 Navigate to user/checkout.php and replace the test key with your own Razorpay Key ID.
 
@@ -76,13 +78,18 @@ var options = {
     // ...
 
 
-Bash
+```Bash
 sudo mkdir -p assets/uploads
 sudo chown -R www-data:www-data assets/uploads/
 sudo chmod -R 775 assets/uploads/
 
-📂 Directory Structure
-Plaintext
+```
+
+
+
+## 📂 Directory Structure
+
+```Bash
 carthub/
 ├── admin/          # Master control panel & analytics
 ├── assets/         # Static images, CSS, JS, and user uploads
@@ -93,5 +100,7 @@ carthub/
 ├── vendor/         # Composer dependencies (PHPMailer)
 └── index.php       # Main landing page
 
+```
 
-# 
+
+# Developed By Vinay Sahani, Gaurav Yadav, Janvi Thakre
