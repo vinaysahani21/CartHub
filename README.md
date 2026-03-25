@@ -102,4 +102,4 @@ carthub/
 ```
 
 
-# Developed By Vinay Sahani, Gaurav Yadav, Janvi Thakre
+### Developed By Vinay Sahani, Gaurav Yadav, Janvi Thakre
